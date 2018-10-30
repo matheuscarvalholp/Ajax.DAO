@@ -1,0 +1,20 @@
+﻿@model TesteEmpresa.Models.Produto
+
+@{
+    ViewBag.Title = "InserirProduto";
+}
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/jquery-3.3.1.js"></script> @*BIBLIOTECA JQUERY*@
+<h2>InserirProduto</h2> @*titulo*@ @*CTRL + K + C = CTRL + K + U*@
+<div class="col-md-12">
+    @*NÚMERO DE LINHAS 12*@
+    <label>Descricao</label>
+    <input type="text" class="form-control" id="descricao" /><br /> @*BUTÃO PARA INSERIR*@
+    <label>Quantidade</label>
+    <input type="text" class="form-control" id="quantidade" /><br /> @*>BUTÃO PARA INSERIR*@
+    <label>Valor</label>
+    <input type="text" class="form-control" id="valor" /><br /> @*BUTÃO PARA INSERIR*@
+    <button class="btn btn-default" id="salvar">Salvar</button> @*BTN - PADRÃO BUTÃO BTN-DEFAULT - COR*@
+</div>
+
+<script src="~/Scripts/InserirProduto.js"></script> 
